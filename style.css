@@ -1,0 +1,191 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+/*
+font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+/*
+font-family: "Outfit", sans-serif;
+font-optical-sizing: auto;
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  margin: 60px;
+  width: 700px;
+  border: 2px white;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+img {
+  width: 600px;
+  margin: 3rem 3rem;
+  border-radius: 20px;
+}
+
+h1 {
+  margin-left: 3rem;
+}
+
+.description {
+  margin: 2rem 3rem;
+  font-size: 16px;
+}
+
+.card {
+  width: 600px;
+  height: 200px;
+  margin: 3rem 3rem;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 20px;
+}
+
+.card h4 {
+  padding: 2rem 0 0 2rem;
+  color: hsl(332, 51%, 32%);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card ul li span {
+  font-weight: 600;
+  color: hsl(24, 5%, 18%);
+}
+.card ul {
+  margin-left: 3rem;
+  padding: 1rem;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 2;
+  list-style-position: outside;
+  opacity: 0.8;
+}
+
+.card ul li {
+  padding-left: 30px;
+}
+
+ul li {
+  list-style-type: square;
+}
+
+ul li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.ingredients {
+  margin: 3rem 3rem;
+}
+
+.ingredients h2 {
+  color: hsl(14, 45%, 36%);
+}
+
+.ingredients ul {
+  margin: 1rem;
+  padding-left: 1rem;
+  line-height: 2;
+  list-style-position: outside;
+}
+
+.ingredients ul li {
+  padding-left: 30px;
+  color: hsl(24, 5%, 18%);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+hr {
+  margin: 1rem 2rem;
+}
+
+.instructions {
+  margin: 3rem 3rem;
+}
+
+.instructions h2 {
+  color: hsl(14, 45%, 36%);
+}
+
+.instructions ol {
+  margin: 1rem 2rem;
+  color: hsl(24, 5%, 18%);
+  font-weight: 400;
+  font-size: 16px;
+
+  list-style-position: outside;
+}
+
+.instructions ol li {
+  padding-left: 20px;
+  margin-top: 1rem;
+}
+
+.instructions ol li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.instructions ol li span {
+  font-weight: 600;
+}
+
+.nutrition {
+  margin: 3rem 3rem;
+}
+
+.nutrition h2 {
+  color: hsl(14, 45%, 36%);
+}
+
+.nutrition p {
+  margin-top: 1rem;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.table {
+  margin-top: 2rem;
+  padding-left: -10px;
+  font-size: 16px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nutrition .table strong {
+  color: hsl(14, 45%, 36%);
+}
