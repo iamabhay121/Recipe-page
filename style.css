@@ -30,7 +30,6 @@ body {
   background-color: hsl(30, 54%, 90%);
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 h1,
@@ -42,15 +41,15 @@ h2 {
 
 .container {
   margin: 60px;
-  width: 700px;
+  width: 45%;
   border: 2px white;
   border-radius: 20px;
   background-color: hsl(0, 0%, 100%);
 }
 
 img {
-  width: 600px;
-  margin: 3rem 3rem;
+  max-width: 90%;
+  margin: 3rem 2rem;
   border-radius: 20px;
 }
 
@@ -64,8 +63,8 @@ h1 {
 }
 
 .card {
-  width: 600px;
-  height: 200px;
+  max-width: 90%;
+  min-height: 200px;
   margin: 3rem 3rem;
   background-color: hsl(330, 100%, 98%);
   border-radius: 20px;
@@ -188,4 +187,20 @@ hr {
 
 .nutrition .table strong {
   color: hsl(14, 45%, 36%);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  img {
+    min-width: 100%;
+    min-height: 200px;
+    margin: 0 0 2rem 0;
+    border-radius: 0;
+  }
+  .card {
+    width: 80%;
+    margin: auto;
+  }
 }
